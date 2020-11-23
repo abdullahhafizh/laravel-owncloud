@@ -1,0 +1,27 @@
+{
+  "name": "abdullahhafizh/laravel-owncloud",
+  "type": "library",
+  "description": "Laravel 7 OwnCloud Filesystem",
+  "keywords": [
+    "webdav",
+    "laravel"
+  ],
+  "homepage": "https://github.com/abdullahhafizh/laravel-owncloud",
+  "license": "MIT",
+  "authors": [
+      {
+        "name": "Abdullah Hafizh",
+        "email": "abdllhhafizh@gmail.com"
+      }
+  ],
+  "require": {
+    "php" : "~7.0",
+    "illuminate/filesystem": "^6.0",
+    "abdullahhafizh/flysystem-owncloud": ">=1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "League\\Flysystem\\OwnCloud\\": "src"
+    }
+  }
+}
