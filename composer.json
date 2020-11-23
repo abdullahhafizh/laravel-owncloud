@@ -16,7 +16,6 @@
   ],
   "require": {
     "php" : "~7.0",
-    "illuminate/filesystem": "^6.0",
     "abdullahhafizh/flysystem-owncloud": ">=1.0"
   },
   "autoload": {
